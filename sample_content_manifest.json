@@ -1,0 +1,29 @@
+{
+  "slides": [
+    {
+      "slide_id": 1,
+      "content_type": "intro",
+      "title": "Clinical Trials",
+      "subtitle": "Structure, Evidence & Approval",
+      "priority": "high"
+    },
+    {
+      "slide_id": 2,
+      "content_type": "section_start",
+      "title": "The Four Phases of Clinical Trials",
+      "subtitle": "Understanding the structured progression from first-in-human testing to post-marketing surveillance",
+      "priority": "high"
+    },
+    {
+      "slide_id": 3,
+      "content_type": "content",
+      "title": "Phase I Safety Assessment",
+      "body_blocks": [
+        "Safety and tolerability",
+        "Pharmacokinetics",
+        "Pharmacodynamics"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "project_name": "pptx_replacement_engine",
+  "preserve_formatting": true,
+  "repeat_policy": {
+    "max_consecutive_same_layout": 2,
+    "prefer_variation": true
+  },
+  "layouts": [
+    {
+      "layout_id": "title_slide",
+      "layout_name": "Title Slide",
+      "master_name": "DEFAULT",
+      "content_types": [
+        "intro",
+        "section_start"
+      ],
+      "capacity": {
+        "title": 1,
+        "subtitle": 1,
+        "body_blocks": 0,
+        "callouts": 0
+      },
+      "fallback_layouts": [
+        "section_header"
+      ]
+    },
+    {
+      "layout_id": "section_header",
+      "layout_name": "Section Divider",
+      "master_name": "DEFAULT",
+      "content_types": [
+        "section_start"
+      ],
+      "capacity": {
+        "title": 1,
+        "subtitle": 1,
+        "body_blocks": 0,
+        "callouts": 0
+      },
+      "fallback_layouts": [
+        "title_slide"
+      ]
+    },
+    {
+      "layout_id": "single_body",
+      "layout_name": "Single Body",
+      "master_name": "DEFAULT",
+      "content_types": [
+        "content",
+        "summary"
+      ],
+      "capacity": {
+        "title": 1,
+        "subtitle": 1,
+        "body_blocks": 1,
+        "callouts": 1
+      },
+      "fallback_layouts": [
+        "two_col_body"
+      ]
+    },
+    {
+      "layout_id": "two_col_body",
+      "layout_name": "Two Column Body",
+      "master_name": "DEFAULT",
+      "content_types": [
+        "comparison",
+        "framework",
+        "process"
+      ],
+      "capacity": {
+        "title": 1,
+        "subtitle": 0,
+        "body_blocks": 2,
+        "callouts": 2
+      },
+      "fallback_layouts": [
+        "single_body"
+      ]
+    }
+  ]
+}

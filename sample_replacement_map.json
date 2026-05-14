@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "shape_key": "1/Title 1",
+      "new_text": "Clinical Trials"
+    },
+    {
+      "shape_key": "1/Subtitle 2",
+      "new_text": "Structure, Evidence & Approval"
+    }
+  ]
+}
